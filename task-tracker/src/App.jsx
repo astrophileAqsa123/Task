@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar.jsx";
 export default function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
+    {/* <Navbar/> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profile" element={<Profile />} />
